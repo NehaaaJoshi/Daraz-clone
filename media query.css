@@ -1,0 +1,192 @@
+@media screen and (max-width:1400px){
+    *{
+        overflow: hidden;
+    }
+   .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .box-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: none;
+   }
+
+   .box{
+    width: 135px;
+    height: 150px;
+    padding-left: 17px;
+   }
+
+   .box-img{
+    align-items: center;
+   }
+
+   .shop-items{
+    margin-left: 50px;
+    width: 215px;
+   }
+
+   .shop-items p{ height: 27px;
+    margin-left: 10px;}
+
+    .nav-top{ 
+        display: flex;
+       justify-content: space-evenly;
+       width: 65%;
+       cursor: pointer;
+       z-index: 1;}
+    
+       .nav-top a{
+        margin-right: 5px;
+       }
+
+       #z{
+        display:none;
+       }
+
+       span{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:1195px){
+ 
+    .input-search{ width: 540px;
+} 
+
+#n{
+    height: 40px;
+    font-size: 15px;
+    
+}
+
+   .hero-img{ background-image: url(d-hero.jpg);
+    background-size: cover;
+    height: 315px;
+margin-right: 20px;}
+
+.shop-items{
+    margin-left: 25px;
+    width: 215px;
+   }
+
+   .shop-items p{ 
+    margin-left: 10px;
+font-size: 12.5px;}
+
+.logo{
+    width: 135px;
+}
+ 
+
+}
+
+   @media screen and (max-width:900px){
+.nav-top{
+    width: 80%;
+    height: 29px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:760px){
+    .hero-img{ background-image: url(d-hero.jpg);
+        background-size: cover;
+        height: 305px;}
+}
+
+.input-search{ width: 60%
+} 
+
+.logo{ background-image: url(d-logo.png);
+    background-size: cover;
+    height: 55px;
+    width: 135px;
+}
+
+.nav-options{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: #fc572d;
+}
+
+.nav-top{
+    height: 34px;
+    margin-left: 10px;
+}
+
+.search-icon{ height: 28px;
+    width: 60px;}
+
+.nav-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 70px;
+}
+.nav-options{
+    border-top: 3px solid white;
+   }
+
+   .shop-items{
+    display: none;
+   }
+   }
+
+   @media screen and (max-width:480px){
+    .hero-img{ background-size: cover;
+        height: 265px;
+    margin-left: 12px;}
+
+           .nav-top{
+            height: 33px;
+            font-size: 12px;
+            margin-left: 8px;
+           }
+
+           span button{
+              bottom:500px
+           }
+
+           span a{
+            display: none;
+           }
+
+           .content{
+            height: 215px;
+            width: 120px;
+            margin: 8px;
+            background-color: #fff;
+        }
+
+        .product{
+            height: 150px;
+            width:120px ;
+        }
+
+        .content p{
+            padding: 2px;
+            font-size: 11px;
+        }
+
+        .price{
+            font-size: 10px;
+        }
+
+        .actual{
+            font-size: 10px;
+        }
+   }
+
+   @media screen and (max-width:390px){
+    .input-search{ width:100%;
+        margin-right: 8px;
+    } 
+
+    .nav-options{
+        height: auto;
+    }
+   }
