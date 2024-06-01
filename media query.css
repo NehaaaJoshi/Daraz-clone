@@ -40,7 +40,7 @@
        z-index: 1;}
     
        .nav-top a{
-        margin-right: 5px;
+        padding: 4px;
        }
 
        #z{
@@ -50,10 +50,6 @@
        span{
         margin-left: 50px;
     }
-
-   .search-icon{
-    display: none;
-   }
 }
 
 @media screen and (max-width:1195px){
@@ -91,7 +87,7 @@ font-size: 12.5px;}
    @media screen and (max-width:900px){
 .nav-top{
     width: 80%;
-    height: 29px;
+    height: 30px;
     font-size: 14px;
 }
 
@@ -118,7 +114,7 @@ font-size: 12.5px;}
 }
 
 .nav-top{
-    height: 35px;
+    height: 42px;
     margin-left: 10px;
 }
 
@@ -148,7 +144,7 @@ font-size: 12.5px;}
     margin-left: 12px;}
 
            .nav-top{
-             height: 36px; 
+             height: 45px; 
             font-size: 12px;
             margin-left: 8px;
            }
@@ -192,18 +188,22 @@ font-size: 12.5px;}
         }
 
         .box-content p{
-            font-size: 14px;
+            font-size: 12px;
+        }
+
+        .box-content{
+            width: 110px;
         }
 
         .box{
-            height: 127px;
-                width: 125px;
-                padding-left: 17px;
+            height: 125px;
+                width: 115px;
+                padding-left: 8px;
         }
 
         .box-img{
-            height: 97px;
-            width: 100px;
+            height: 99px;
+            width: 103px;
         }
 
         .sale{
@@ -232,6 +232,6 @@ font-size: 12.5px;}
     }
 
     .nav-top{
-        height: 39px;
+        height: 47px;
     }
    }
