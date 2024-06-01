@@ -61,7 +61,7 @@
     .input-search{ width: 540px;
 } 
 
-#n{ width: 40%;
+#n{ width: 65%;
     height: 40px;
     font-size: 20px;
     
@@ -101,7 +101,7 @@ font-size: 12.5px;}
         height: 305px;}
 }
 
-.input-search{ width: 60%
+.input-search{ width: 60%;
 } 
 
 .logo{ background-image: url(d-logo.png);
@@ -129,7 +129,6 @@ font-size: 12.5px;}
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    margin-left: 70px;
 }
 .nav-options{
     border-top: 3px solid white;
@@ -138,6 +137,9 @@ font-size: 12.5px;}
    .shop-items{
     display: none;
    }
+   span button{
+  margin-right: 14px;
+ }
    }
 
    @media screen and (max-width:480px){
@@ -146,13 +148,13 @@ font-size: 12.5px;}
     margin-left: 12px;}
 
            .nav-top{
-            height: 35px;
+             height: 36px; 
             font-size: 12px;
             margin-left: 8px;
            }
 
            span button{
-              bottom:500px
+              bottom:500px;
            }
 
            span a{
@@ -161,19 +163,20 @@ font-size: 12.5px;}
 
            .content{
             height: 215px;
-            width: 120px;
+            width: 130px;
             margin: 8px;
             background-color: #fff;
         }
 
         .product{
-            height: 150px;
-            width:120px ;
+            height: 140px;
+            width:130px ;
+            
         }
 
         .content p{
             padding: 2px;
-            font-size: 11px;
+            font-size: 12px;
         }
 
         .price{
@@ -193,11 +196,14 @@ font-size: 12.5px;}
         }
 
         .box{
-            height: 135px;
+            height: 127px;
+                width: 125px;
+                padding-left: 17px;
         }
 
         .box-img{
-            height: 105px;
+            height: 97px;
+            width: 100px;
         }
 
         .sale{
@@ -207,14 +213,25 @@ font-size: 12.5px;}
         .items{
             font-size:22px ;
         }
+
+        .input-search{ width: 58%;
+            margin-right: 20px;
+        } 
+
    }
 
-   @media screen and (max-width:390px){
-    .input-search{ width:100%;
+   @media screen and (max-width:420px){
+    .input-search{ width:87%;
         margin-right: 8px;
+        display: flex;
+        justify-content: center;
     } 
 
     .nav-options{
         height: auto;
+    }
+
+    .nav-top{
+        height: 39px;
     }
    }
